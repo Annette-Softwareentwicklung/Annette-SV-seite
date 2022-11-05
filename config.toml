@@ -2,3 +2,19 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "SV am Annette Gymnasium"
 theme = "sv-theme"
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    pre = "pen-tool"
+    url = "/blog/"
+    weight = 2
+    [[menu.main]]
+    name = "Credits"
+    pre = "pen-tool"
+    url = "/credits/"
+    weight = 2
