@@ -1,0 +1,7 @@
+.heading {
+  color: #009BC2;
+  word-break: normal;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+}
