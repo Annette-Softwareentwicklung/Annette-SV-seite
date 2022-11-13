@@ -1,12 +1,10 @@
 <header>
-  <div name="rectangle 9" style="position: absolute;width: 1720px;height: 200px;left: 1720px;top: 200px;background: #009BC2;transform: rotate(-180deg);"></div>
-  <div name="rectangle 12" style="position: absolute;width: 200px;height: 100px;left: 1920px;top: 100px;background: #009BC2;transform: rotate(-180deg);"></div>
-  <div name="rectangle 13" style="position: absolute;width: 100px;height: 100px;left: 1820px;top: 200px;background: #009BC2;transform: rotate(-180deg);"></div>
-  <div name="Rectangle 11" style="position: absolute;width: 200px;height: 200px;left: 300px;top: 400px;background: #FFFFFF;transform: rotate(-180deg);"></div>
-  <div name="Rectangle 10" style="position: absolute;width: 200px;height: 200px;left: 200px;top: 500px;background: #FFFFFF;transform: rotate(-180deg);"></div>
-  <div name="Ellipse 6" style="position: absolute;width: 200px;height: 200px;left: 1920px;top: 200px;background: #009BC2;transform: rotate(-180deg);border-radius: 1e+10px;"></div>
-  <div name="Ellipse 5" style="position: absolute;width: 200px;height: 200px;left: 1920px;top: 400px;background: #FFFFFF;transform: rotate(-180deg);border-radius: 1e+10px;border-radius: 1e+10px;"></div>
-  <div name="Ellipse 4" style="position: absolute;width: 200px;height: 200px;left: 200px;top: 400px;background: #FFFFFF;transform: rotate(-180deg);border-radius: 1e+10px;"></div>
-  <div name="Rectangle 9" style="position: absolute;width: 1720px;height: 200px;left: 1720px;top: 200px;background: #009BC2;transform: rotate(-180deg);"></div>
-  <div name="Rectangle 8" style="position: absolute;width: 200px;height: 200px;left: 200px;top: 400px;background: #009BC2;transform: rotate(-180deg);"></div>
+  <h6>Annette-Softwareentwicklung</h6>
+  <nav>
+    {{ range .Site.Menus.main }}
+      <a class="nav-link" href="{{ .URL }}">
+        {{ .Name }}
+      </a>
+    {{ end }}
+  </nav>
 </header>
