@@ -1,7 +1,15 @@
-.heading {
+
+section .heading {
   color: #009BC2;
   word-break: normal;
   hyphens: auto;
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
+  font-size: 5rem;
+}
+
+@media screen and (max-width: 800px) {
+  section .heading {
+    font-size: 4rem;
+  }
 }
