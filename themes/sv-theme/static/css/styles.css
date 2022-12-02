@@ -35,7 +35,8 @@ header {
   position: fixed;
   width: calc(100% - 300px);
   top: 30px;
-  box-shadow: 0px 0px 150px rgba(0, 0, 0, 0.2)
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
+  z-index: 999999999;
 }
 header nav {
   display: flex;
@@ -53,9 +54,10 @@ main {
   margin-inline: 200px;
 }
 
-main section {
+main > section {
   margin-block: 100px;
 }
+
 
 @media screen and (max-width: 1200px) {
   main {

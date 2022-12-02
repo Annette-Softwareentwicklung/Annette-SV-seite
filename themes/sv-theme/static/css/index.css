@@ -1,12 +1,50 @@
 
-section .heading {
+
+.landing-section .heading {
   color: #009BC2;
   word-break: normal;
   hyphens: auto;
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   font-size: 5rem;
+  margin-bottom: 100px;
 }
+
+
+main article {
+  margin-inline: 50px;
+}
+
+.landing-section .grid {
+  position: relative;
+  grid-template-columns: repeat(2, auto);
+  height: 600px;
+  gap: 100px;
+  background-image: url("./../index-image.jpeg");
+  background-position: 50% 50%;
+}
+.landing-section .block {
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  display: block;
+  background-color: #009BC2;
+  padding: 50px;
+}
+
+.landing-section .block1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.landing-section .block2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+
 
 @media screen and (max-width: 800px) {
   section .heading {
