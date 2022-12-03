@@ -2,6 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "SV am Annette"
 theme = "sv-theme"
+copyright = "Copyright © 2022 Annette-Softwareentwicklung"
 [menu]
   [[menu.main]]
     name = "Home"
