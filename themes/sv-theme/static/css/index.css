@@ -20,8 +20,11 @@ main article {
   grid-template-columns: repeat(2, auto);
   height: 600px;
   gap: 100px;
-  background-image: url("./../index-image.jpeg");
-  background-position: 50% 50%;
+}
+.landing-section .grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .landing-section .block {
   color: white;
@@ -30,6 +33,9 @@ main article {
   display: block;
   background-color: #009BC2;
   padding: 50px;
+}
+.block h4 {
+  margin-bottom: 0;
 }
 
 .landing-section .block1 {
@@ -44,10 +50,30 @@ main article {
 }
 
 
-
+.introduction-section img {
+  width: 40%;
+  float: right;
+  margin: 20px;
+}
 
 @media screen and (max-width: 800px) {
   section .heading {
     font-size: 4rem;
+  }
+  main article {
+    margin-inline: 5%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .landing-section .heading {
+    font-size: 3rem;
+  }
+  .introduction-section img {
+    width: 100%;
+    float: right;
+    margin: 20px 0px;
+  }
+  .landing-section .block {
+    padding: 20px;
   }
 }
