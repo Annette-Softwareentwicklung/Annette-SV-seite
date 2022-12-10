@@ -1,6 +1,24 @@
+{{ define "styles" }}
+  <div></div>
+{{ end }}
+
+
 {{ define "main" }}
 
-  <h1>{{ .Title }}</h1>
-  <p>Hier findet ihr eine Sammlung aller Blog-Posts der SV</p>
+  <article>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+  </article>
+  
+  <section>
+    {{ range .Pages.ByPublishDate }}
+    <div>
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      <img src="{{ .Params.thumbnail }}" style="height: 100px; width: 100%;">
+      <p>{{ .Summary }}</p>
+    </div>
+    {{ end }}
+  </section>
+
 
 {{ end }}

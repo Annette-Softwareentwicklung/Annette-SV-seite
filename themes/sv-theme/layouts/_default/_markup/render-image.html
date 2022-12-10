@@ -1,0 +1,5 @@
+<p class="md__image" style="padding: 5%">
+  <img
+    style="max-width: 100%;" 
+    src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} />
+</p>

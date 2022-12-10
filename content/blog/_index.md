@@ -1,4 +1,4 @@
 ---
 title: Blog Posts der SV
 ---
-# Hello
+Hier findet ihr eine Sammlung aller Blog-Posts der SV
