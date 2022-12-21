@@ -79,6 +79,21 @@ main > section {
   margin-block: 100px;
 }
 
+footer div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  margin-top: 10px;
+  background-color: #009BC2;
+  color: white;
+  padding: 10px 0;
+}
+footer p {
+  margin-bottom: 0;
+}
+
 
 @media screen and (max-width: 1200px) {
   main {
