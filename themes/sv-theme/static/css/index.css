@@ -1,5 +1,7 @@
 
-
+.landing-section {
+  margin-top: 0;
+}
 .landing-section .heading {
   color: #009BC2;
   word-break: normal;
@@ -10,10 +12,6 @@
   margin-bottom: 100px;
 }
 
-
-main article {
-  margin-inline: 50px;
-}
 
 .landing-section .grid {
   position: relative;

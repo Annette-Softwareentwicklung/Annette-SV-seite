@@ -38,8 +38,6 @@ img {
 header {
   height: auto;
   background-color: whitesmoke;
-  margin-inline: 150px;
-  border-radius: 10px;
   padding-inline: 50px;
   display: flex;
   align-items: center;
@@ -47,14 +45,16 @@ header {
   text-align: center;
   gap: 20px;
   padding: 30px;
+  padding-inline: 180px;
   flex-wrap: wrap;
   color: #009BC2;
   position: fixed;
-  width: calc(100% - 300px);
-  top: 30px;
+  width:100%;
+  top: 0px;
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
   z-index: 999999999;
 }
+
 header nav {
   display: flex;
   align-items: center;
@@ -91,6 +91,7 @@ footer div {
   padding: 10px 0;
 }
 footer p {
+  text-align: center;
   margin-bottom: 0;
 }
 
@@ -100,8 +101,7 @@ footer p {
     margin-inline: 100px;
   }
   header {
-    margin-inline: 50px;
-    width: calc(100% - 100px);
+    width: 100%;
   }
 }
 
@@ -110,8 +110,8 @@ footer p {
     margin-inline: 5%;
   }
   header {
-    margin-inline: 5%;
-    width: calc(100% - 10%);
+    margin-inline: 0%;
+    width: 100%;
     padding-inline: 20px;
   }
   h1 { font-size: 3rem; }
