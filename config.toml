@@ -13,6 +13,10 @@ copyright = "Copyright © 2022 Annette-Softwareentwicklung"
     url = "/blog/"
     weight = 2
   [[menu.main]]
+    name = "Arbeitsgruppen"
+    url = "/arbeitsgruppe/"
+    weight = 3
+  [[menu.main]]
     name = "Credits"
     url = "/credits/"
-    weight = 3 # * weight gibt an, in welcher Reihenfolge "range" über diese iteriert
+    weight = 4 # * weight gibt an, in welcher Reihenfolge "range" über diese iteriert
