@@ -6,7 +6,6 @@ thumbnail: "/blog/1.jpg"
 ---
 
 
-# SV-Sitzung
 Wegen Corona musste sich die SV in der Aula treffen und mussten dort arbeiten. Normalerweise arbeiten die Schülersprecher und die Klassensprecher bei den SV-Tagen aber wegen den jetzigen Umständen ging es nicht. Die Sitzung dauerte ca. 3 Stunden.
 
 # Ablauf
