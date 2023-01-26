@@ -1,5 +1,5 @@
 .post {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .summary {
@@ -10,5 +10,7 @@
 
 .image {
   margin: 0;
+  height: 200px;
+  width: 100%;
 }
 

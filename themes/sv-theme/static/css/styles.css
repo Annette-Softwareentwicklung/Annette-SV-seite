@@ -79,13 +79,29 @@ main > section {
   margin-block: 100px;
 }
 
-footer div {
+footer > div {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   width: 100%;
-  margin-top: 10px;
   background-color: #009BC2;
   color: white;
   padding: 10px 0;
+}
+footer div p, footer div a {
+  margin-bottom: 0;
+}
+header .instagram-section {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content:start;
+  gap: 5px;
+}
+header .instagram-section a {
+  margin: 0;
 }
  
 
@@ -96,6 +112,7 @@ footer div {
   }
   header {
     width: 100%;
+    padding-inline: 20px;
   }
 }
 
