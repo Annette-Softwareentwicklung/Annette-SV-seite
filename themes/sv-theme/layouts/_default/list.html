@@ -15,12 +15,7 @@
     <div class="post">
       <a href="{{ .RelPermalink }}">
         <h3>{{ .Title }}</h3>
-        <!-- if there is a thumbnail, include an image, if there isn't, don'T -->
-        {{
-          cond (isset .Params "thumbnail") 
-          (printf "<img class='image' src='%s'>" .Params.thumbnail | safeHTML)
-          ""
-        }}
+        {{ cond (isset .Params "thumbnail") (printf "<img class='image' src='%s'>" .Params.thumbnail | safeHTML) ("") }}
         
         <p class="summary">{{ .Summary }}</p>
       </a>

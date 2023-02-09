@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog Posts der SV on SV am Annette</title>
+    <link>http://example.org/blog/</link>
+    <description>Recent content in Blog Posts der SV on SV am Annette</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2022 Annette-Softwareentwicklung</copyright>
+    <lastBuildDate>Thu, 26 Jan 2023 10:09:00 +0100</lastBuildDate><atom:link href="http://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Die SV Tage 2022/2023</title>
+      <link>http://example.org/blog/sv-tage/</link>
+      <pubDate>Thu, 26 Jan 2023 10:09:00 +0100</pubDate>
+      
+      <guid>http://example.org/blog/sv-tage/</guid>
+      <description>In der SV wenn die Klassensprecher,die Schülervertreter und die SV Lehrer sich treffen wollen veranstalten die Leitung die SV Tage. Diese 2 Tage finden normalerweise im evangelischen Gemeindehaus von Urdenbach statt aber in den letzten 2 Jahren konnten wir wegen Corona nur ein SV Treff machen deswegen freuen wir uns hier zu sein.
+Mittwoch Wir traffen uns um 8:30 Uhr und haben uns erstmal begrüßt. Nach der Begrüßung haben wir kleine Kennenlernspiele gespielt um Wach zu werden für die Arbeitsphasen.</description>
+    </item>
+    
+    <item>
+      <title>Die 1. SV-Sitzung 2022/2023</title>
+      <link>http://example.org/blog/die-erste-sv-sitzung/</link>
+      <pubDate>Sat, 10 Dec 2022 13:03:00 +0100</pubDate>
+      
+      <guid>http://example.org/blog/die-erste-sv-sitzung/</guid>
+      <description>Wegen Corona musste sich die SV in der Aula treffen und mussten dort arbeiten. Normalerweise arbeiten die Schülersprecher und die Klassensprecher bei den SV-Tagen aber wegen den jetzigen Umständen ging es nicht. Die Sitzung dauerte ca. 3 Stunden.
+Ablauf Die SV Lehrer begrüßten die Schülersprecher und die vielen Klassensprecher.Danach wurde der Tagesordnung besprochen. Die Klassensprecher werden in Arbeitsgruppen geteilt dann werden sie ihre Themen bearbeiten und ihre Ergebnisse vorstellen.Danach wird Frau Özdimir und Frau Heisler kommen um über Drogen und Alkohol aufzuklären und über die Workshops zu erzählen.</description>
+    </item>
+    
+  </channel>
+</rss>

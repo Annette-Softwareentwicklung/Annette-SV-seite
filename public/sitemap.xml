@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://example.org/blog/</loc>
+    <lastmod>2023-01-26T10:09:00+01:00</lastmod>
+  </url><url>
+    <loc>http://example.org/blog/sv-tage/</loc>
+    <lastmod>2023-01-26T10:09:00+01:00</lastmod>
+  </url><url>
+    <loc>http://example.org/</loc>
+    <lastmod>2023-01-26T10:09:00+01:00</lastmod>
+  </url><url>
+    <loc>http://example.org/arbeitsgruppe/sport-am-annette/</loc>
+    <lastmod>2023-01-25T10:33:03+01:00</lastmod>
+  </url><url>
+    <loc>http://example.org/arbeitsgruppe/</loc>
+    <lastmod>2023-01-25T10:33:03+01:00</lastmod>
+  </url><url>
+    <loc>http://example.org/arbeitsgruppe/homepage/</loc>
+    <lastmod>2023-01-25T10:25:36+01:00</lastmod>
+  </url><url>
+    <loc>http://example.org/blog/die-erste-sv-sitzung/</loc>
+    <lastmod>2022-12-10T13:03:00+01:00</lastmod>
+  </url><url>
+    <loc>http://example.org/credits/</loc>
+  </url><url>
+    <loc>http://example.org/categories/</loc>
+  </url><url>
+    <loc>http://example.org/tags/</loc>
+  </url>
+</urlset>

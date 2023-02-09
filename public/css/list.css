@@ -1,0 +1,16 @@
+.post {
+  margin-bottom: 100px;
+}
+
+.summary {
+  background-color: whitesmoke;
+  padding: 30px;
+  color: black;
+}
+
+.image {
+  margin: 0;
+  height: 200px;
+  width: 100%;
+}
+
